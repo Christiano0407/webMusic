@@ -117,17 +117,17 @@
 }
 .main__image .img-one img {
   object-fit: cover;
-  width: 600px;
+  width: 500px;
   height: 700px;
   filter: contrast(0.5);
 }
 .main__text-one {
   position: relative;
   z-index: 30;
-  width: 100px;
+  width: 150px;
   display: flex;
   justify-content: space-evenly;
-  left: 150px;
+  left: 120px;
   top: 90px;
 }
 .main__text-one p {
@@ -139,4 +139,30 @@
   border: 2px solid #fff;
   width: 10px;
   display: flex;
+  border-radius: 1rem;
+}
+.main__text-two {
+  position: relative;
+  z-index: 35;
+  left: 125px;
+  top: 200px;
+  flex-direction: column;
+  display: flex;
+}
+.main__text-two .text-twoTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--white-2);
+  padding-top: 1rem;
+}
+.main__text-two .textSpan {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 1rem;
+  color: #fff;
+}
+.main__text-two .textNum {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #fff;
 }
