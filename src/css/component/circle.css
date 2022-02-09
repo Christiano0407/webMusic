@@ -40,28 +40,30 @@
   bottom: 600px;
 }
 
-.btn__clic {
+.btn__click {
   position: relative;
   z-index: 10;
   width: 15rem;
   height: 7rem;
   border: none;
   outline: none;
-  top: 20rem;
-  right: 185px;
+  top: 22rem;
+  right: 200px;
   border-radius: 1rem;
-  color: var(--white-2);
   background-color: #05f2c7;
-  font-size: 1.5rem;
-  font-weight: 900;
   cursor: pointer;
 }
-.btn__clic:hover {
+.btn__click a {
+  color: var(--white-2);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.btn__click:hover {
   background-color: #067373;
   color: #fff;
   font-size: 1.8rem;
   border: 2px solid #fff;
 }
-.btn__clic:active {
+.btn__click:active {
   transform: scale(0.9);
 }
