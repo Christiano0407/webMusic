@@ -1,7 +1,5 @@
 /* = Components =*/
-@import url("/src/css/mediaQuerie/mediaQuerie.css");
 @import url("/src/css/component/circle.css");
-@import url("/src/css/keyframes/keyframes.css");
 .background__page {
   width: 100%;
   height: 100vh;
@@ -117,6 +115,7 @@
   padding: 1rem;
 }
 .container__main .main__image {
+  grid-area: main;
   grid-column: 2 / 3;
   grid-row: 2 / 4;
   width: 100%;

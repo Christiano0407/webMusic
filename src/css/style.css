@@ -1,5 +1,7 @@
 /* === General Components ===*/
+@import url("/src/css/mediaQuerie/mediaQuerie.css");
 @import url("/src/css/stylePage.css");
+@import url("/src/css/keyframes/keyframes.css");
 /* === Root ===*/
 :root {
     /*Colors*/
