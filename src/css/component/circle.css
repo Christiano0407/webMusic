@@ -51,5 +51,17 @@
   right: 185px;
   border-radius: 1rem;
   color: var(--white-2);
-  background-color: var(--clr-ux-blue);
+  background-color: #05f2c7;
+  font-size: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+.btn__clic:hover {
+  background-color: #067373;
+  color: #fff;
+  font-size: 1.8rem;
+  border: 2px solid #fff;
+}
+.btn__clic:active {
+  transform: scale(0.9);
 }
