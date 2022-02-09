@@ -5,6 +5,23 @@
 @media (min-width: 688px) {
 }
 @media (min-width: 992px) {
+  .main__image {
+    grid-area: main; 
+    width: 100%;
+    height: 100%;
+  }
+  .main__image .img-one {
+    width: 100%;
+    height: 100%;
+    left: 150px;
+    top: 10rem; 
+    position: absolute;
+  }
+  .main__image .img img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
 }
 @media (min-width: 1312px) {
   .main__image {
@@ -22,7 +39,7 @@
   }
   ,
   .main__image .img-one img {
-    object-fit: cover;
+    object-fit: contain: ;;
     position: absolute;
     width: 80%;
     height: 100%;
