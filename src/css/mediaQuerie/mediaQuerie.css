@@ -7,7 +7,7 @@
 @media (min-width: 992px) {
 }
 @media (min-width: 1312px) {
-  .container__main .main__image {
+  .main__image {
     grid-area: main;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
