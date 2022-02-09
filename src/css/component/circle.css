@@ -63,6 +63,8 @@
   color: #fff;
   font-size: 1.8rem;
   border: 2px solid #fff;
+  border: none;
+  outline: none;
 }
 .btn__click:active {
   transform: scale(0.9);
