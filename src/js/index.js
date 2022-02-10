@@ -51,6 +51,46 @@ tl.fromTo(
   "<"
 );
 //  == Barba Js ==
+/* barba.init({
+  transitions: [
+    {
+      name: "plus",
+      leave: function (data) {
+        let done = this.async();
+        document.body.classList.add("loading");
+        setTimeout(function () {
+          done();
+        }, 400);
+      },
+      enter: function (data) {
+        let done = this.async();
+        done();
+        setTimeout(function () {
+          document.body.classList.add("loading");
+        }, 400);
+      },
+    },
+  ],
+}); */
+
 barba.init({
-  transitions: [{}],
+  transitions: [
+    {
+      name: "prueba",
+      leave: function (data) {
+        var done = this.async();
+        document.body.classList.add("loading");
+        setTimeout(function () {
+          done();
+        }, 900);
+      },
+      enter: function (data) {
+        var done = this.async();
+        done();
+        setTimeout(function () {
+          document.body.classList.remove("loading");
+        }, 900);
+      },
+    },
+  ],
 });

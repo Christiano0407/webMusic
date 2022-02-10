@@ -32,7 +32,8 @@
       Landing Page Web | Music App Web | Animation and Responsive Web
     </title>
   </head>
-  <body>
+  <body data-barba="wrapper">
+    <div data-barba="container" data-barba-namespace="home">
     <!--Page Landing-->
     <div class="background__page">
       <div class="circle one"></div>
@@ -108,9 +109,15 @@
         </div>
         </div>
     </div>
+    </div>
     <!-- Frameworks Js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
     <!-- Javascript -->
     <script src="/src/js/index.js"></script>
   </body>

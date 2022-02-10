@@ -74,4 +74,19 @@ font-style: normal; */
 /* font-family: changeling-neo,sans-serif;
 font-weight: 700;
 font-style: normal;  */
+transition: all .1s;
+}
+body::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: -100vw;
+    left: 0;
+    transition: all .3s;
+}
+/*Barba Js*/
+.loading::after {
+    top: 0; 
 }
