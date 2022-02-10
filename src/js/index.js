@@ -50,3 +50,7 @@ tl.fromTo(
   { x: 0, opacity: 1, delay: 1, duration: 1 },
   "<"
 );
+//  == Barba Js ==
+barba.init({
+  transitions: [{}],
+});
